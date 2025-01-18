@@ -47,16 +47,16 @@ dog_Breeds: list = ["Min Pin", "Pit", "Akita"]
 dog_age_all_breed: list = [17,3,7,14,10,8]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
-# TODO: Replace these variable names with the variable name of your own numeric list
+# TODO: Replace these variable names with the variable name of your own numeric list - completed
 min_age: float = min(dog_age_all_breed)  
 max_age: float = max(dog_age_all_breed)  
 mean_age: float = statistics.mean(dog_age_all_breed)  
 stdev_age: float = statistics.stdev(dog_age_all_breed)
 
 # Use a Python formatted string (f-string) to show information
-# TODO: Modify the text in the byline to fit your information
+# TODO: Modify the text in the byline to fit your information - done 
 # TODO: Modify the variables in the byline to use your variable names
-byline: str = f"""
+byline: str = f""" 
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
