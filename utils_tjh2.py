@@ -7,6 +7,9 @@ Description: This module provides a byline for my analytics projects.
 When we work hard to write useful code, we want it to be reusable.
 A good byline could be used in every Python analytics project we do.
 
+I like dogs, and have had several over the years of various ages and breed types. 
+I just used something I know about for this project.  
+
 Author: Tiffany Hildebrand
 
 TODO: Change the module name in this opening docstring
