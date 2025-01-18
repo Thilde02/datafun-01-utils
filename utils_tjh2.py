@@ -20,11 +20,11 @@ TODO: Change the author in this opening docstring
 # Import helpful modules from the Python Standard library
 # See more at: https://docs.python.org/3/library/
 
-import statistics  # provides mean(), stdev() and more....
-
 #####################################
 # Declare Global Variables
 #####################################
+
+import statistics  # provides mean(), stdev() and more....
 
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
