@@ -44,14 +44,14 @@ dog_Breeds: list = ["Min Pin", "Pit", "Akita"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
-dog_coat_fur_type: list = [Smooth, Coarse, Drop, Wire]
+dog_age_all_breed: list = [17,3,7,14,10,8]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_age: float = min(dog_age_all_breed)  
+max_age: float = max(dog_age_all_breed)  
+mean_age: float = statistics.mean(dog_age_all_breed)  
+stdev_age: float = statistics.stdev(dog_age_all_breed)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
@@ -60,14 +60,14 @@ byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+Has Pet Dog:  {Has_pet_dog}
+Age of Dog:         {Age_of_dog}
+Dog Breed:             {dog_Breeds}
+Breed age: {dog_age_all_breed}
+Minimum Dog Age: {min_age}
+Maximum Dog Age: {max_age}
+Mean Dog Age: {mean_age:.2f}
+Standard Deviation of Dog Age: {stdev_age:.2f}
 """
 
 #####################################
